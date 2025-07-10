@@ -46,12 +46,6 @@ Clustering performance was evaluated using:
 - Successfully formed ≥2 clusters and computed **Silhouette**, **Homogeneity**, and **Completeness** scores.  
 - Some points were marked as noise, highlighting DBSCAN's ability to detect outliers.
 
-📊 **Step 5: Clustering Evaluation & Comparison**
-| Algorithm                               | Dimensionality  | Clusters Formed | Noise Points      | Silhouette Score* | Homogeneity | Completeness |
-|----------------------------------------|-----------------|-----------------|-------------------|-------------------|-------------|--------------|
-| Hierarchical (n=3)                     | Full Features   | 3               | 0                 | ~0.29–0.33        | Moderate    | Moderate     |
-| DBSCAN (PCA + eps=0.5, min_samples=5) | PCA-Reduced 2D  | ≥2              | Some points (-1)  | ≥0.45*            | Lower       | Higher       |
-
 ---
 
 💡 **Key Insights**
